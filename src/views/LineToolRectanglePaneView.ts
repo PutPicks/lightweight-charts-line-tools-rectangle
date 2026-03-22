@@ -133,7 +133,7 @@ export class LineToolRectanglePaneView<HorzScaleItem> extends LineToolPaneView<H
 		const P1_cull = this._tool.getPoint(1)!;
 		
 		// --- CULLING IMPLEMENTATION START (Using Sub-Segment Culling Strategy) ---
-		if (this._points.length >= this._tool.pointsCount && !this._tool.isCreating() && !this._tool.isEditing()) {
+		if (false && this._points.length >= this._tool.pointsCount && !this._tool.isCreating() && !this._tool.isEditing()) {
 			
 			// 1. Calculate the Four Geometric Corner Points (Logical)
 			const minTime = Math.min(P0_cull.timestamp, P1_cull.timestamp);
