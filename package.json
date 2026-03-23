@@ -21,7 +21,7 @@
     "geometry",
     "price action highlighting",
     "drawing tools"
-  ],  
+  ],
   "scripts": {
     "build": "rollup -c && typedoc",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -41,7 +41,7 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "lightweight-charts-line-tools-core": "github:difurious/lightweight-charts-line-tools-core",
+    "lightweight-charts-line-tools-core": "github:PutPicks/lightweight-charts-line-tools-core",
     "tslib": "^2.8.1",
     "typedoc": "^0.28.15"
   }
